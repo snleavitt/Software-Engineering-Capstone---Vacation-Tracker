@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="trans_options">
+        <item>Car</item>
+        <item>Plane</item>
+        <item>Tour Bus</item>
+        <item>Cruise</item>
+        <item>Boat</item>
+        <item>Walking</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="table_options">
+        <item>Vacation</item>
+        <item>Excursion</item>
+    </string-array>
+
+    <string-array name="field_options_vacation">
+        <item>Select Fields</item>
+        <item>Vacation Name</item>
+        <item>Lodging Name</item>
+        <item>Transportation</item>
+        <item>Additional Details</item>
+        <item>Start Date</item>
+        <item>End Date</item>
+        <item>Plane Departure Date</item>
+        <item>Plane Departure Time</item>
+    </string-array>
+
+    <string-array name="field_options_excursion">
+        <item>Select Fields</item>
+        <item>Excursion Name</item>
+        <item>Start Date</item>
+        <item>Start Time</item>
+        <item>Additional Information</item>
+    </string-array>
+
+    <string-array name="b_or_a">
+        <item>Before</item>
+        <item>After</item>
+    </string-array>
+
+    <string name="spinner_prompt">Select a Table</string>
+
+</resources>

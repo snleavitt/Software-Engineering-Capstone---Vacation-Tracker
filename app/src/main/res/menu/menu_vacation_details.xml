@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Save Vacation"
+        android:id="@+id/vacationsave" />
+    <item
+        android:title="Delete Vacation"
+        android:id="@+id/vactiondelete" />
+    <!--    <item android:title="Add Sample Excursions"-->
+    <!--        android:id="@+id/addSampleExcursions"/>-->
+    <item
+        android:title="Share Vacation Details"
+        android:orderInCategory="100"
+        android:id="@+id/share" />
+    <item
+        android:title="Set Alarm For Vacation Start"
+        android:orderInCategory="100"
+        android:id="@+id/vacationnotify" />
+    <item
+        android:id="@+id/departurenotify"
+        android:title="Set Alarm For Plane Depature"
+        android:visible="false"
+        app:showAsAction="never" />
+
+
+</menu>
